@@ -35,8 +35,8 @@ import javax.xml.parsers.ParserConfigurationException;
  */
 public class JIRARestClient {
     private static final Logger LOGGER = LoggerFactory.getLogger(JIRARestClient.class);
-    private static final String JIRA_USER = "vijet.mahabaleshwar";
-    private static final String JIRA_PASSWORD = "R@hm@n12345";
+    private static final String JIRA_USER = "youusername";
+    private static final String JIRA_PASSWORD = "yourpassword";
     private static final String JIRA_BASE_PATH = "https://singularity.jira.com/wiki";
     private static final Gson GSON = new GsonBuilder()
             .setDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'").serializeNulls().create();
